@@ -104,7 +104,7 @@ Now open your browser at **http://localhost:5173** (or the port shown in the con
 ## 💬 About Me
 
 👋 Hi, I'm **Alireza**, a passionate Front-End Developer who loves turning complex ideas into clean, functional interfaces.  
-I'm focused on **modern web technologies** like React, Redux, and TypeScript — and always exploring new ways to create better user experiences.
+ I'm focused on **modern web technologies** like React and Redux — and always exploring new ways to create better user experiences.
 
 If you liked this project, feel free to ⭐ star the repo or connect with me! 🙌
 
