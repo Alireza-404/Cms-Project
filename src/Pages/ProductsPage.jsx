@@ -7,7 +7,7 @@ import {
 } from "../Redux/Slices/ProductsSlice";
 import { SetField } from "../Redux/Slices/FieldSlice";
 import Button from "../Components/Button/Button";
-import ProductsBox from "../Components/ProductsBox/ProductsBox";
+import ProductsBox from "../Components/ProductBox/ProductBox";
 import Navbar from "../Components/Navbar/Navbar";
 import Overlay from "../Components/Overlay/Overlay";
 

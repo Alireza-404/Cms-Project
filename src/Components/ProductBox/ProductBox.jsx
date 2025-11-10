@@ -2,7 +2,6 @@ import { useDispatch } from "react-redux";
 import Button from "../Button/Button";
 import Swal from "sweetalert2";
 import { RemoveProductFromServer } from "../../Redux/Slices/ProductsSlice";
-import { unwrapResult } from "@reduxjs/toolkit";
 
 const ProductsBox = (props) => {
   const dispatch = useDispatch();
@@ -74,11 +73,11 @@ const ProductsBox = (props) => {
         alt="Product-Image"
         src={props.images[0]}
         loading="lazy"
-        className="w-48 h-32 object-cover"
+        className="w-48 h-32 object-cover flex-shrink-0"
       />
       <div className="flex flex-col w-full gap-y-4 justify-between h-full">
         <div className="py-2 pr-6 pl-2">
-          <p className="text-yellow-500 text-2xl font-medium font-mono line-clamp-1">
+          <p className="text-yellow-500 text-2xl font-medium font-mono line-clamp-1 w-96">
             {props.title}
           </p>
           <p className="dark:text-gray-200 text-[17px] line-clamp-2">
